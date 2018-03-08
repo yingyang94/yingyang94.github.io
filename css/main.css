@@ -53,6 +53,12 @@ h2 {
  
 #sideNav .navbar-nav .nav-item .nav-link {font-weight: 600;text-transform:uppercase}
  
+.img-profile {
+	max-width: 10rem;
+	max-height: 10rem;
+	border: .5rem solid #D2CFD7
+}
+ 
 @media (min-width:992px) {
 	#sideNav {
 		text-align:center;
@@ -111,7 +117,7 @@ section.resume-section .resume-item .resume-date {
  
 @media (min-width:768px) {
 	section.resume-section {
-		min-height:100vh
+		min-height:50vh
 	}
 	section.resume-section .resume-item .resume-date {
 		min-width: 18rem
